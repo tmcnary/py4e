@@ -2,7 +2,6 @@
 
 #opens the file with a context manager in read mode; variable is set afterward
 with open('builder-api.json', 'r') as f:
-    
     size_to_read = input('How many characters would you like to read:')
     f_contents = f.read(int(size_to_read))
     while len(f_contents) > 0:
