@@ -1,0 +1,6 @@
+As an SIS coordinator
+I would like to know if the version of an app on a device matches the latest deployed version in bldr
+So that I can validate that the system is up to date
+
+Dashboard 
+* Show apps where at least one device has a version different from what is displayed for the channel in bldr
